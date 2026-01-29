@@ -25,7 +25,7 @@ function App() {
     <>
       {!showResult && (
         <div className="question-container container">
-          <video className="local-gif" src="/Reply me love.mp4" autoPlay muted loop />
+          <video className="local-gif" src="Reply me love.mp4" autoPlay muted loop />
           <h2 className="question">Do you love me?</h2>
           <div className="button-container">
             <button className="yes-btn btn js-yes-btn" onClick={handleYesClick}>Yes</button>
@@ -42,7 +42,7 @@ function App() {
 
       {showResult && (
         <div className="result-container container" style={{ display: 'block' }}>
-          <video className="gif-result" src="/Love me.mp4" autoPlay loop />
+          <video className="gif-result" src="Love me.mp4" autoPlay loop />
           <h2>I knew it😍!</h2>
         </div>
       )}
